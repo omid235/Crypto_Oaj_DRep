@@ -66,12 +66,12 @@
       },
       {
         "@type": "Link",
-        "label": "Instagram",
+        "label": "instagram",
         "uri": "https://www.instagram.com/crypto_oaj"
       },
       {
         "@type": "Link",
-        "label": "Linkedin",
+        "label": "linkedin",
         "uri": "https://www.linkedin.com/in/omidajorlou/"
       }
     ]
