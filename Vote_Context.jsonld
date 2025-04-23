@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "As a Cardano DRep, I firmly believe the Net Change Limit (NCL) is antithetical to Cardano’s long-term scalability and governance efficiency. Its rigid structure risks bottlenecking our budget process, creating unnecessary friction for ecosystem contributors. The NCL should be removed from the Constitution to ensure a more agile, scalable, and community-driven treasury system.  \n\nHowever, in 2025, voting “no” on the interim budget would force a two-month delay to Cardano’s roadmap—a critical setback during a hypercompetitive phase for blockchain ecosystems. While I oppose NCL in principle, pragmatism demands a “yes” vote this year to avoid destabilizing projects reliant on timely funding. Smaller builders, as Charles Hoskinson highlighted, lack the reserves of larger entities like IOG and cannot afford delays.  \n \nCharles’ recent tweets underscore the urgency of this moment:  \n- “We’ve always known 2025 would be an interim budget year... We shouldn’t expect perfection nor squeeze the people who’ve been building our ecosystem for years. I want Cardano to win.”\n- “No one outside the Cardanoverse cares about this stuff. They care whether we win with Bitcoin DeFi... They care about our adoption.”\n\nHis message is clear: Delays harm builders, and our focus must remain on execution, not perfection. Cardano’s treasury reserves and annual inflows are robust, but global competitors like Solana won’t wait. Passing the budget now ensures we advance Leios, Bitcoin DeFi, and adoption while maintaining momentum.  \n\nCall to Action:\n1. Vote “YES” on the 2025 budget\n    to avoid delays and uphold the community-approved roadmap.  \n2. Commit to reforming governance in 2026\n    by removing NCL from the Constitution and designing a scalable, decentralized budget process.  \n\nLet’s heed Charles’ advice: “Focus on the macro, trust in each other, and get this done.” Temporary compromise today ensures we live to fight—and innovate—another day.  "
+  },
+  "hashAlgorithm": "blake2b-256"
+}
