@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "As a DRep in the Cardano ecosystem, I vote Yes for the Amaru proposal due to the following key reasons:\n\nNode Diversity and Decentralization: The Amaru project addresses a critical need in the Cardano network by introducing a new block-producing node written in Rust. This increases resilience by reducing dependency on a single Haskell implementation, thereby enhancing the network's fault tolerance and decentralization.\n\nPerformance and Efficiency: Amaru prioritizes better resource usage, including lower memory consumption and enhanced observability through industry-standard monitoring. This improvement benefits Stake Pool Operators (SPOs) by lowering hardware requirements, ultimately reducing operational costs.\n\nEnhanced Interoperability: The Rust-based approach not only attracts a wider pool of developers but also integrates seamlessly with existing blockchain solutions. This modular and flexible design expands the potential for future innovations and use cases within the Cardano ecosystem.\n\nHigh Assurance and Robustness: The development process of Amaru includes thorough conformance testing and the identification of inconsistencies in existing implementations. This meticulous approach contributes to the network's overall security and stability.\n\nResponsible Budget and Governance: The proposal demonstrates financial responsibility with a clear breakdown of Full-Time Employee (FTE) requirements and contingency planning. Moreover, the use of an on-chain smart contract for budget administration ensures transparency and accountability.\n\nCommunity-Driven and Open-Source: Amaru's open-source model, managed by PRAGMA—a reputable multi-entity effort—ensures community engagement and long-term maintenance. Regular updates and demos foster transparency and maintain community trust."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
