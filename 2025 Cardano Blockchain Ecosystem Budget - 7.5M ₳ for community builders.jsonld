@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "As a DRep, I am casting a **YES** vote for the **2025 Cardano Blockchain Ecosystem Budget Info Action** (Governance Action ID: `gov_action1mmalzkcxpyn33t05hml2hxpwq0ffv6uu4mhe8sv7guz5nmm4afysqlmepzl`). \nBelow is my rationale:\n\n\n### ✅ Rationale for YES Vote\n\n#### 1. **Constitutional Integrity and Threshold Correction**\n\nThis Info Action directly addresses a critical flaw observed in the initial budget process—namely, the misapplication of the **50% + 1 Lovelace threshold**. By recalibrating the threshold against the **active voting stake (5.38B ADA)** rather than overall participation, the proposers restore democratic legitimacy and prevent governance distortion. Only proposals that met the corrected threshold of **2.69B ADA** are included, ensuring majority support and adherence to the **Cardano Constitution’s Article IV**.\n\n\n#### 2. **Empowering Community Builders**\n\nA core purpose of this action is to **lower barriers to entry** for builders and innovators who do not have the 100k ADA deposit required for individual proposal submission. By bundling proposals that surpassed quorum into a collective Info Action, this mechanism enables **grassroots participation** without compromising on quality or support levels. It’s a practical step toward a **more inclusive and decentralized treasury system**.\n\n\n#### 3. **Exclusion of Founding Entities for Fairness**\n\nThe deliberate exclusion of proposals from founding entities (Intersect, IOG, Cardano Foundation, Emurgo), even when they met the threshold, reinforces neutrality and safeguards against **institutional bias**. It sends a strong signal that **no actor is above the process** and that **community-driven proposals** are prioritized within the Net Change Limit (₳350M), in line with constitutional expectations.\n\n\n#### 4. **Clear Alignment with the Net Change Limit (NCL)**\n\nThe combined allocation of ₳7.56M remains well within the ₳350M cap for 2025. The budgeting is **fiscally responsible**, respects **long-term treasury sustainability**, and enables strategic experimentation (e.g., Layer 2 solutions, wallet infrastructure, node performance) without risking overspending.\n\n\n#### 5. **Transparent and Structured Process**\n\nThe entire process—from open submission to off-chain signaling (Ekklesia) to this on-chain Info Action—was handled with a high degree of transparency and community engagement. Proposals were **standardized**, **vetted**, and **backed by data**. This demonstrates maturity in Cardano's evolving governance and strengthens community trust.\n\n\n#### 6. **Real-World Relevance and Ecosystem Impact**\n\nThe proposals funded—such as **zkFold**, **Midgard Optimistic Rollups**, **Blockfrost Platform**, and **Hardware Wallet Maintenance**—align with Cardano’s roadmap in scaling, developer tooling, and security. They represent **tangible progress** in areas where Cardano must remain competitive and developer-friendly.\n\n\n### ✅ Summary\n\nThis Info Action exemplifies **constitutional governance in action**—respecting thresholds, protecting the treasury, and empowering builders. It corrects past procedural missteps without disenfranchising the community. By voting **YES**, I support a **transparent, inclusive, and legitimate budgeting process** that aligns with the vision of Voltaire and the values embedded in the Cardano Constitution.\n\n\n*Omid | Cardano DRep*\n*“Legitimacy through participation, sustainability through restraint.”*\n"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
